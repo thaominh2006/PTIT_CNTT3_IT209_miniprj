@@ -1,0 +1,21 @@
+# Thư mục build và cache của Gradle
+build/
+.gradle/
+out/
+target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Git và file nhạy cảm
+.git/
+.gitignore
+.env
+*.log
+
+# Tài liệu và file không cần trong image
+Dockerfile
+.dockerignore
+*.md
